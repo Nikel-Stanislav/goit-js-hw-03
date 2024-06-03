@@ -1,7 +1,4 @@
 function slugify(title) {
-  //     Значенням параметра title будуть рядки, слова яких розділені лише пробілами.
-  // Усі символи slug повинні бути в нижньому регістрі.
-  // Усі слова slug повинні бути розділені тире.
   const titleSlag = title.toLowerCase();
   const slag = titleSlag.split(" ").join("-");
   return slag;
